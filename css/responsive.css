@@ -1,0 +1,295 @@
+/* ------ large devices (1300px and up) -----*/
+@media (min-width: 1300px) {
+  .container-fluid {
+    max-width: 1265px;
+  }
+}
+
+/* ------ large devices (1299px and down) -----*/
+@media (max-width: 1299px) {
+  .container-fluid {
+    padding: 0 3.5rem;
+  }
+}
+
+/* ------ large devices (1200px and up) -----*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+    padding: 0 2rem;
+  }
+
+  .Testimonial_section .container {
+    max-width: 1140px;
+  }
+}
+
+/* ------ Medium devices (991px to 1199px) -----*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+@media (max-width: 991px) {
+  html {
+    font-size: 50%;
+  }
+
+  br {
+    display: none;
+  }
+
+  .header_content h2 br {
+    display: block;
+  }
+
+  .header_content h2 {
+    font-size: 3.5rem;
+  }
+
+  /* ================= pertners_section ============== */
+  .pertners_section .row {
+    --bs-gutter-x: 3rem;
+    gap: var(--bs-gutter-x) 0;
+  }
+  .pertners_section .row > * {
+    padding: 0 1.5rem;
+  }
+
+  /* ================= Benifit_section ============== */
+  .Benifit_section .row {
+    gap: 3.2rem 0;
+    padding: 0;
+  }
+
+  /* =================== residential_section ============== */
+  .residential_slider {
+    width: 100%;
+  }
+  .residential_img_text {
+    font-size: 2.4rem;
+    height: 8rem;
+  }
+
+  /* =================== Testimonial Section ================= */
+  .testimonial_arrow {
+    display: none;
+  }
+  .testimonian_content {
+    padding-bottom: 5rem;
+  }
+  .testimonial_boxes > .d-grid {
+    gap: 3.2rem;
+  }
+  .testimonial_boxes > .d-grid > .testimonial_box:nth-child(2) {
+    margin-left: 0;
+  }
+  .testimonial_boxes {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  /* =================== llc_section ================= */
+  .llc_section .row {
+    gap: 5rem;
+  }
+  .llx_bottom_part h6 br {
+    display: block;
+  }
+}
+
+/*----- sm devices (tablets, 767px and down) -----*/
+@media (max-width: 767px) {
+  body {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+
+  .botom_bar:before {
+    height: 0.5rem;
+    width: 75%;
+  }
+
+  .container {
+    padding: 0 2.5rem;
+  }
+
+  .chat_box img {
+    width: 3rem;
+  }
+
+  .logo img {
+    width: 14rem;
+}
+
+  /* titles */
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2.4rem;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+  }
+
+  /* ====================== pertners_section =================== */
+  .pertners_section .row > * {
+    padding: 0 1rem;
+  }
+  .pertners_section .row {
+    --bs-gutter-x: 2rem;
+  }
+
+  /* ====================== Hero_section =================== */
+  .hero_section {
+    padding: 12rem 0 6rem 0;
+  }
+
+  .section_buttons {
+    display: block !important;
+  }
+
+  .button {
+    width: 100%;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+    height: 5rem;
+  }
+
+  .section_buttons > .button:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .header_content p.pt_40 {
+    padding: 4rem 0;
+  }
+
+  .section_buttons .button img {
+    width: 2.5rem;
+  }
+
+  /* ================ service_section ============ */
+  .play_icon {
+    width: 5rem;
+  }
+
+  /* ============== Benifit_section ============== */
+  .Benifit_section {
+    padding: 7rem 0;
+  }
+  .Benifit_section h3 {
+    padding-bottom: 5rem;
+  }
+
+  /* ============== Residential_section ============== */
+  .residential_img_text {
+    font-size: 1.5rem;
+    height: 5.6rem;
+    width: calc(100% - 3rem);
+    left: 1.5rem;
+    padding: 0 3rem;
+  }
+
+  /* =============== Residential_section ============= */
+  .residential_section {
+    padding: 7rem 0;
+  }
+  .slider_arrow .text_sm {
+    font-size: 1.2rem;
+  }
+
+  .owl-dots {
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
+
+  .Testimonial_section {
+    padding: 7rem 0;
+    margin-bottom: 8rem;
+  }
+
+  .testimonian_content h2 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    letter-spacing: 0.01em;
+    padding: 2rem 0;
+  }
+
+  .testimonial_boxes {
+    padding-left: 3rem;
+  }
+
+  .testimonian_content > * {
+    text-align: center !important;
+}
+
+  /* =================== llc_section =================== */
+  .llc_section {
+    padding: 7rem 0;
+  }
+
+  .llc_section .row1 > * {
+    padding: 0 0.8rem;
+  }
+
+  .llc_section .row1 {
+    padding-bottom: 8rem;
+  }
+
+  .product_info ul.pl_20.pb_40 {
+    padding-bottom: 2rem;
+  }
+
+  .product_infos {
+    flex-direction: column;
+    gap: 5rem;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .llx_bottom_part h6 {
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .site_footer p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+
+  .site_footer {
+    padding: 4rem 0;
+  }
+
+  /* added later */
+  .benifit_icon img {
+    width: 3rem;
+  }
+  .benifit_text h5 {
+      padding-bottom: 1rem;
+  }
+  .benifit_icon {
+    width: 7rem;
+    height: 7rem;
+}
+  
+}
+
+/*----- xs devices (landscape phones, 575px and down) -----*/
+@media (max-width: 575px) {
+  html {
+    font-size: 2.32vw;
+  }
+}
